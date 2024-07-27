@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        android:tint="@color/white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:id="@+id/option_new"
+    android:icon="@drawable/baseline_create_new_folder_24"
+
+    android:title="New"
+    app:showAsAction="never"
+
+    />
+    <item
+        android:id="@+id/opt_open"
+        android:title="Open"
+        android:icon="@drawable/baseline_file_open_24"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:id="@+id/opt_save"
+        android:title="Save"
+        android:icon="@drawable/baseline_file_open_24"
+        app:showAsAction="collapseActionView"
+
+        />
+
+</menu>

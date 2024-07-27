@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="simple_contact_image">simple_contact_image</string>
+    <string name="button_process">Button_process</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="app_namee">Contact App</string>
+</resources>
